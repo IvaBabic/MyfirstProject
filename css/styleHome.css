@@ -41,17 +41,19 @@ nav a:active{
 }
 
 h1 {
-    font-family: cursive;
+    font-family: 'Lucida Sans';
 }
 
 #para-headline{
     font-size: 30px;
+    font-family: 'Lucida Sans';
 }
 
 #best-rated-link{
     text-decoration: none;
     color: crimson;
     text-align: center;
+    font-family: 'Lucida Sans';
 }
 
 .gallery{
