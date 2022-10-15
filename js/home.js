@@ -1,7 +1,5 @@
-console.log("hello");
 
 var listItem= document.getElementsByTagName("li");
-console.log(listItem.length);
 
  for (let i = 0 ; i < listItem.length; i++) {
     listItem[i].addEventListener("click", ()=>{
