@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#paragraphs{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 40px;
+    font-size: 17px;
+}
+
+#newsletter{
+    text-align: center;
+    font-size: 17px;
+    background-color: chocolate;
+  
+}
