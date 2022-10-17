@@ -1,0 +1,32 @@
+.recipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    /* display: inline-block;
+    margin-left: 30%;
+    width: 40%;
+    padding: 1em;
+    margin-top: 20px;
+    background-color: #240B36;
+    border-radius: 2em;
+    border-style: dashed;
+    border-color: #DB9065; */
+}
+
+.recipeContainer{
+    background-color: darkolivegreen;
+    margin: 30px;
+    width: 60%;
+    margin-left: 250px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+img{
+    margin-bottom: 10px;
+}
