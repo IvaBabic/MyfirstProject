@@ -25,8 +25,8 @@
                     <a class="nav-link" href="index.html">HOME</a>
                     <a class="nav-link" href="about.html">ABOUT</a>
                     <a class="nav-link" href="bestRated.html">BEST RATED RECIPES</a>
-                    <a class="nav-link" href="recipes">ALL RECIPES</a>
-                    <a class="nav-link" href="post">POST A BLOG</a>
+                    <a class="nav-link" href="recipes.html">ALL RECIPES</a>
+                    <a class="nav-link" href="post.html">POST A BLOG</a>
                  </nav>
             </div>
         
@@ -60,16 +60,16 @@
        <p>The collection avaialble here has grown massively over the past year as 
         we are not the sole contributors to the website. Our readers have started 
         contributing and you can do it, too, by either hoping to the Post a blog link
-        above or <a href="post.html">right here</a>.
+        above or <a id="blogPost" href="post.html">right here</a>.
        </p>
     </div>
 </div>
 
 <div id="newsletter">
-    <form action="">
+    <form name="form" action="" method="post" >
         <p>Interested in hearing more from us? Sign up for our weekly newsletter!</p>
-        <input type="email" placeholder="Enter your email address here">
-        <button id="button">Submit</button>
+        <input id= "email" type="email" placeholder="Enter your email address here">
+        <button id="button" onclick="ValidateEmail()">Submit</button>
     </form>
 </div>
             

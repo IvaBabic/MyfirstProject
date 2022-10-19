@@ -12,6 +12,8 @@
     <!-- CSS -->
     <link href="css/styleHome.css" rel="stylesheet">
     <link href="css/bestRated.css" rel="stylesheet">
+    <link href="css/recipes.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
     
@@ -26,7 +28,7 @@
                     <a class="nav-link" href="index.html">HOME</a>
                     <a class="nav-link" href="about.html">ABOUT</a>
                     <a class="nav-link" href="bestRated.html">BEST RATED RECIPES</a>
-                    <a class="nav-link" href="recipes.html">ALL RECIPES</a>
+                    <a class="nav-link" href="recipes">ALL RECIPES</a>
                     <a class="nav-link" href="post.html">POST A BLOG</a>
                  </nav>
             </div>
@@ -41,7 +43,15 @@
 
 
     <div class="blog-headline">
-        <h1>BEST RATED RECIPES</h1>
+        <h1>ALL RECIPES</h1>
+      
+        <div class="forma">
+        <form  method="post">
+           <input type="text" placeholder="Search.." class="search" id="searchTxt" value="" name="name">
+           <button type="submit" id="button"> <i class="fa fa-search"></i></button>
+        </form>
+        </div>
+          
     </div>
  
     
@@ -114,6 +124,76 @@
                 Bake, uncovered, until no longer pink, 15-18 minutes.</p>
         </div>
     </section>
+
+    <section class="recipeContainer">
+        <h2 class="title">Stir fry noodles</h2>
+        <div class="recipe">
+            
+            <img src="slike/Asian noodles.jpg" alt="Asian noodles" width="400" height="400">
+            <p>In a small bowl, whisk together soy sauce, garlic, brown sugar,<br>
+                sambal oelek, oyster sauce, ginger and sesame oil; set aside.<br>
+               In a large pot of boiling salted water, cook pasta according to <br>
+                package instructions; drain well.<br><br>
+                Heat olive oil in a large skillet over medium high heat. <br>
+               Add shrimp and 2 tablespoons soy sauce mixture, and cook,<br>
+                stirring occasionally, until pink, about 2-3 minutes; set aside.<br><br>
+                Stir in mushrooms, bell pepper, zucchinis and carrot to the skillet.<br>
+                 Cook, stirring frequently, until tender, about 3-4 minutes.<br>
+                  Stir in spaghetti, shrimp and remaining soy sauce mixture <br>
+                  until well combined, about 2-3 minutes.<br><br>
+                Serve immediately, garnished with cilantro, if desired.</p>
+        </div>
+    </section>
+
+    <section class="recipeContainer">
+        <h2 class="title">Garlic and Butter Shrimp</h2>
+        <div class="recipe">
+            
+            <img src="slike/shrimp.webp" alt="Shrimp image" width="400" height="400">
+            <p>All you really need is Shrimp and Sauce:<br><br>
+               Sauce. You can’t go wrong with mayonnaise, <br>
+               Thai sweet chili sauce, and Sriracha hot sauce.<br>
+              However, I suggest adding some red pepper flakes <br>
+              and/or a dash of lemon juice to really bring out the flavor!<br><br>
+                
+               Shrimp. Remember to always peel and devein your shrimp,<br>
+               or buy them pre-peeled and ready to go. It’s also best <br>
+               to remove the tails before serving, as that makes it easier<br>
+               to pop the shrimp straight into your mouth.<br><br>
+                
+                But if you’re going for aesthetics, leave the tails on. <br>
+                You can always chop them off after.<br><br>
+                
+                Another Tip: using large/jumbo-sized shrimp<br>
+                 or 31-count shrimp. That’ll give you about <br>
+                 30 to 33 shrimp per pound bag. Use more<br>
+                  depending on your party size.
+            </p>
+        </div>
+    </section>
+
+    <section class="recipeContainer">
+        <h2 class="title">Meatballs in tomato sauce</h2>
+        <div class="recipe">
+            
+            <img src="slike/meatballs.jpg" alt="Meatballs image" width="400" height="400">
+            <p>2 large eggs <br>
+                1/4 cup water<br>
+                1 small onion, finely chopped<br>
+                1-1/3 cups soft bread crumbs<br>
+                2/3 cup grated Parmesan cheese<br>
+                2 garlic cloves, minced<br>
+                2 teaspoons Italian seasoning<br>
+                1-1/2 teaspoons salt<br>
+                2 pounds ground beef <br><br>
+                Preheat oven to 375°. In a large bowl, crumble beef.<br>
+                Add eggs, water, onion, bread crumbs, Parmesan cheese,<br>
+                garlic and seasonings; mix lightly but thoroughly.<br><br>
+                Shape into 1-1/2-in. balls. Place meatballs<br>
+                on greased racks in shallow baking pans. <br>
+                Bake, uncovered, until no longer pink, 15-18 minutes.</p>
+        </div>
+    </section>
        
            
            
@@ -130,6 +210,6 @@
 
 
 
-<script src=""></script>
+<script src="js/recipes.js"></script>
 </body>
 </html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Blog</title>
+
+   
+    <!-- CSS -->
+    <link href="css/styleHome.css" rel="stylesheet">
+    <link href="css/post.css" rel="stylesheet">
+
+    
+    
+</head>
+
+<body>
+
+    <header>
+        
+            <div class="header-div">
+                <nav class="nav">
+                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                    <a class="nav-link" href="bestRated.html">BEST RATED RECIPES</a>
+                    <a class="nav-link" href="recipes.html">ALL RECIPES</a>
+                    <a class="nav-link" href="post.html">POST A BLOG</a>
+                 </nav>
+            </div>
+        
+    
+        
+    </header>
+    
+
+
+
+
+
+    <div class="blog-headline">
+        <h1>Post a recipe - Let others enjoy your cooking!</h1>
+        
+    </div>
+
+
+        <div id="form-div">
+          <form name="form" id="form1" onsubmit="return ValidateEmailAddress()" method="post">
+            
+            <p class="name">
+              <input name="name" type="text" placeholder="Name" id="name" class="feedback-input" required/>
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" id="email" placeholder="Email" class="feedback-input" required/>
+            </p>
+            
+            <p class="text">
+              <textarea name="text" id="comment" class="feedback-input" placeholder="Write your recipe here" required></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button"/>
+            </div>
+          </form>
+        </div>
+ 
+    
+   
+
+            
+<footer>
+    <p>
+        <a href="#" class="nav-link">BACK TO TOP</a>
+    </p>
+</footer>
+
+
+
+<script src="js/post.js"></script>
+</body>
+</html>
