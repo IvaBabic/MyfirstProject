@@ -17,13 +17,9 @@ header{
 }
 
 
-
 a:hover{
     text-decoration: underline;
-}
-
-nav a:active{
-    background-color: aqua;
+    background-color: rgb(2, 65, 44);
 }
 
 .nav-link{

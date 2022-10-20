@@ -2,16 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   
-    /* display: inline-block;
-    margin-left: 30%;
-    width: 40%;
-    padding: 1em;
-    margin-top: 20px;
-    background-color: #240B36;
-    border-radius: 2em;
-    border-style: dashed;
-    border-color: #DB9065; */
 }
 
 .recipeContainer{
